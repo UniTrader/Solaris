@@ -1,18 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-  <add sel="//macros">
-    <macro name="ven_solaris_cluster_01_macro" class="cluster">
-      <component ref="standardcluster"/>
-      <connections>
-        <connection ref="content">
-          <macro>
-            <component connection="space" ref="Cluster_01" />
-          </macro>
-        </connection>
-        <connection name="ven_solaris_cluster_01_sector001_connection" ref="sectors">
-          <macro ref="ven_solaris_cluster_01_sector001_macro" connection="cluster" />
-        </connection>
-      </connections>
-    </macro>
-  </add>
-</diff>
+<macros>
+  <macro name="ven_solaris_cluster_01_macro" class="cluster">
+    <component ref="standardcluster"/>
+    <connections>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="Cluster_01" />
+        </macro>
+      </connection>
+      <connection name="ven_solaris_cluster_01_sector001_connection" ref="sectors">
+        <macro ref="ven_solaris_cluster_01_sector001_macro" connection="cluster" />
+      </connection>
+    </connections>
+  </macro>
+</macros>
