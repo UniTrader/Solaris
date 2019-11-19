@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content id="ven_solaris" name="Solaris" description="X4: Solaris adds another faction and a few of their sectors into the game." author="Venomaus" version="0.1" date="2019-18-11" save="0" enabled="1">
+  <text language="44" name="Solaris" description="X4: Solaris adds another faction and a few of their sectors into the game." author="Venomaus" />
+  <text language="49" name="Solaris" description="X4: Solaris adds another faction and a few of their sectors into the game." author="Venomaus" />
+</content>
