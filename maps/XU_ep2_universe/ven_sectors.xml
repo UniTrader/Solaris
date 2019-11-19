@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<macros>
+  <macro name="ven_solaris_cluster_01_sector001_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+      <connection name="ven_solaris_zone001_cluster_01_sector001_connection" ref="zones">
+        <offset>
+          <position x="0" y="0" z="0" />
+        </offset>
+        <macro ref="ven_solaris_zone001_cluster_01_sector001_macro" connection="sector" />
+      </connection>
+    </connections>
+    <properties>
+      <identification name="Sol" description="" /> <!-- TODO: Add localization -->
+    </properties>
+  </macro>
+</macros>
