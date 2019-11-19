@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
   <add sel="//index">
-    <entry name="ven_solaris_cluster_*" value="extensions\solaris\maps\XU_ep2_universe\clusters"/>
-    <entry name="ven_solaris_cluster_01_sector*" value="extensions\solaris\maps\XU_ep2_universe\sectors"/>
-    <entry name="ven_solaris_zone*" value="extensions\solaris\maps\XU_ep2_universe\zones"/>
+    <entry name="ven_solaris_cluster_*" value="extensions\solaris\maps\XU_ep2_universe\ven_clusters"/>
+    <entry name="ven_solaris_cluster_01_sector*" value="extensions\solaris\maps\XU_ep2_universe\ven_sectors"/>
+    <entry name="ven_solaris_zone*" value="extensions\solaris\maps\XU_ep2_universe\ven_zones"/>
   </add>
 </diff>
